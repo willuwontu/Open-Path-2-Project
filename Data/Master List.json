@@ -1926,7 +1926,7 @@
             {
               "Name": "Unarmed Attacks",
               "Type": "Weapons",
-              "Value": "Expert"
+              "Value": "Trained"
             },
             {
               "Name": "Armor",
@@ -3102,6 +3102,977 @@
           }
         ]
       }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Occult Spellcasting",
+      "Class": "Bard",
+      "Info": {
+        "Description": "You have the power to cast occult spells using the Cast a Spell activity, and you gain access to the Material Casting, Somatic Casting, and Verbal Casting actions (see Casting Spells on page 195). Because you’re a bard, you can usually play an instrument as part of your Material Casting and Somatic Casting actions, so you usually don’t need spell components or another hand free. You can usually also play an instrument for your Verbal Casting actions rather than speaking. \n  Each day, you can cast up to two 1st-level spells. The number of spells you can cast each day are called your spell slots. You must know spells to cast them, and you learn them via the spell repertoire class feature. As you increase in level as a bard, your number of spells per day and the highest level of spells you can cast from spell slots increases, as shown on the Bard Spells per Day table on page 65.\n  Some of your spells require you to attempt a spell roll to see how effective they are, or have your enemies roll against your spell DC. Since your key ability is Charisma, your spell rolls and spell DCs use your Charisma modifier. See page 291 for details on calculating your spell rolls and spell DCs.\n\nHeightening Spells\nWhen you get spell slots of 2nd level and higher, you can heighten lowerlevel spells to higher levels. You must learn them at the new level to do so, as described on page 192. The spontaneous heightening class feature lets you select two spells you can heighten freely.\n\nCantrips\nSome of your spells are cantrips. A cantrip is a special type of spell that doesn’t use spell slots. You can cast a cantrip at will, any number of times per day. A cantrip is always automatically heightened to the highest level of spell you can cast as a bard. For example, as a 1st-level bard, the highest level of spell you can cast is 1st, so your cantrips are 1st-level spells. As a 5th-level bard, the highest level of spell you can cast is 3rd, so your cantrips are 3rd-level spells.",
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 63
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Spell Repertoire",
+      "Class": "Bard",
+      "Info": {
+        "Description": "Spell Repertoire\nAt 1st level, you learn one 1st-level occult spell of your choice and four occult cantrips of your choice. You choose these from the common spells on the occult spell list in this book (see page 200) or from other occult spells to which you have access. You can cast any spell in your spell repertoire by using a spell slot of an appropriate spell level.\n  You add to this spell repertoire as you increase in level. Each time you get a spell slot from Table 3–6, you add a spell to your spell repertoire of the same level. So when you reach 2nd level, you select another 1st-level spell; at 3rd level, you select two 2nd-level spells, and at 4th level you select a 2nd-level spell.\n  Though you gain them at the same rate, your spell slots and spell repertoire are separate. If a feat or other ability adds a spell to your spell repertoire, it wouldn’t give you another spell slot, and vice versa.\n\nSwapping Spells in Your Repertoire\nAs you gain new spells in your repertoire, you might want to replace some of the spells you previously learned. Each time you level up and learn new spells, you can swap out one of your old spells for a different spell of the same level. This spell can be a cantrip. You can also swap out spells by retraining during downtime (see page 318).",
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 64
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "First Compositions",
+      "Class": "Bard",
+      "Info": {
+        "Description": "Compositions are a special type of spell that require you to use the Performance skill as a part of their casting. At 1st level, bards gain two types of composition spells: composition cantrips and composition powers (which both have the composition trait). You gain the inspire courage composition cantrip (see page 233), which boosts your allies’ attacks, damage, and defense against fear. This is in addition to the cantrips you choose from the occult list. Feats can give you more composition cantrips. Unlike other cantrips, you can’t swap out compositions gained from bard feats at a later level, unless you swap out the specific feat via retraining (see page 318).\n  You can also cast a composition power called counter performance (see page 212) that protects against auditory and visual effects. You have a pool of Spell Points you can spend to cast this spell. Your maximum number of Spell Points is equal to your key ability modifier (minimum 0). You regain all your Spell Points during your daily preparations. You can cast counter performance only by spending 1 Spell Point, not using spell slots. This power is automatically heightened to the highest level of spell you can cast.\n  Some bard feats let you learn more composition powers, and such feats typically increase your pool of Spell Points.",
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 64
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Muses",
+      "Class": "Bard",
+      "Info": {
+        "Description": "As a bard, you have a muse that leads you to great things, which might be a physical creature, a deity, a philosophy, or something more nebulous. While there are nearly as many different muses as there are bards, muses grant a limited number of different abilities to bards based on their theme.",
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 64
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Spontaneous Heightening",
+      "Class": "Bard",
+      "Info": {
+        "Description": "You learn to freely heighten some of your spells, even if you know only the base version of the spell. During your daily preparations (see page 192), you can select up to two spells you know. You can cast those spells using any applicable higher-level spell slots you have, heightening the spell to the level of spell slot used, even if you don’t ordinarily know the spell at the higher level.",
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 65
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Expert Spellcaster",
+      "Class": "Bard",
+      "Info": {
+        "Description": "Your proficiency rank for spell rolls, spell DCs, and attack rolls for occult spells increases to expert.",
+        "Proficiencies": [
+          {
+            "Name": "Occult",
+            "Type": "Spells",
+            "Value": "Expert"
+          }
+        ],
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 65
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Master Spellcaster",
+      "Class": "Bard",
+      "Info": {
+        "Description": "Your proficiency rank for spell rolls, spell DCs, and attack rolls for occult spells increases to master.",
+        "Proficiencies": [
+          {
+            "Name": "Occult",
+            "Type": "Spells",
+            "Value": "Master"
+          }
+        ],
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 65
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Legendary Spellcaster",
+      "Class": "Bard",
+      "Info": {
+        "Description": "Your proficiency rank for spell rolls, spell DCs, and attack rolls for occult spells increases to legendary.",
+        "Proficiencies": [
+          {
+            "Name": "Occult",
+            "Type": "Spells",
+            "Value": "Legendary"
+          }
+        ],
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 65
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Divine Spellcasting",
+      "Class": "Cleric",
+      "Info": {
+        "Description": "You have the power to cast divine spells using the Cast a Spell activity, and you gain access to the Material Casting, Somatic Casting, and Verbal Casting actions (see Spellcasting on page 195). Because you’re a cleric, you can usually hold a divine focus (such as a religious symbol or a religious text) as part of your Material Casting and Somatic Casting actions, so you usually don’t need spell components or another hand free. At 1st level, you can prepare two 1st level spells and four cantrips each morning from the common spells on the divine spell list in this book (see page 200) or from other divine spells to which you gain access. Prepared spells remain available to you until you cast them or until you prepare your spells again. The number of spells you can prepare are called your spell slots.\n  As you increase in level as a cleric, the number of spells you can prepare each day increases, as does the highest level of spell you can cast, as shown on the Cleric Spells per Day table on page 70.\n  Some of your spells require you to attempt a spell roll to see how effective they are, or have your enemies roll against your spell DC. Since your key ability is Wisdom, your spell rolls and spell DCs use your Wisdom modifier. See page 291 for details on calculating your spell rolls and spell DCs.\n\nHeightening Spells\nWhen you get spell slots of 2nd level and higher, you can prepare lower-level spells in those slots to strengthen them. This increases the spell’s level to match the heightened spell slot. Many spells have specific improvements when they are heightened to certain levels (see page 192).\n\nCantrips\nA cantrip is a special type of spell that doesn’t use spell slots. You can cast a cantrip at will, any number of times per day. A cantrip is always automatically heightened to the highest level of spell you can cast as a cleric. For example, as a 1st-level cleric, the highest level of spell you can cast is 1st, so your cantrips are 1st-level spells. As a 5th-level cleric, the highest level of spell you can cast is 3rd, so your cantrips are 3rd-level spells.",
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 69
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Deity and Domain",
+      "Class": "Cleric",
+      "Info": {
+        "Description": "Choose one deity you revere above all others. The most common deities in Pathfinder appear on Table 3–9: Deities on pages 72–73. This table lists each deity’s name, areas of concern, and alignment, followed by the benefits you get for being a cleric of that deity. Your alignment must be one allowed by your deity, as listed in parentheses after the deity’s alignment. Your deity grants you a signature skill and the trained proficiency rank with the deity’s favored weapon. If the favored weapon is uncommon, you also get access to that weapon. Your deity also adds spells to your spell list. When preparing spells, you can select from these in addition to the spells on the divine list once you can cast that level of spell.\n  Select one domain—a subject of particular interest to you within the traditions of your religion—from your deity’s list of domains. This domain grants you a special kind of spell called a domain power. Each domain’s theme and powers appear in Table 3–10: Domains on page 73. By choosing a domain, you gain a pool of Spell Points you can spend to cast domain powers. You can cast domain powers only by spending Spell Points, not by using spell slots. Your maximum number of Spell Points equals your key ability modifier (minimum 0). You regain all your Spell Points when you prepare your spells. You gain the initial power tied to your domain when you select the domain. Your initial domain power costs 1 Spell Point to cast and is automatically heightened to the highest level of spell you can cast. Domain powers are available only to characters who’ve selected the domain and can’t be learned by others.\n  Some cleric feats grant you more domain powers, and such feats typically increase your pool of Spell Points. You can learn additional powers, called advanced domain powers, by taking the Advanced Domain cleric feat. The Spell Point cost of this advanced domain power is listed in parentheses after its name in Table 3–10: Domains.",
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 70
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Anathema",
+      "Class": "Cleric",
+      "Info": {
+        "Description": "Actions fundamentally opposed to your deity’s alignment or ideals are anathema to your faith. Committing acts, learning or casting spells, and using items that are anathema to your deity take you out of that deity’s good graces.\n  Casting spells with the evil trait is almost always anathema to good deities, and casting good spells is likewise anathema to evil deities; similarly, casting chaotic spells is anathema to lawful deities and casting lawful spells is anathema to chaotic deities. A neutral cleric who worships a neutral deity isn’t limited this way, but their alignment might change over time if they frequently cast spells or use abilities with a certain alignment. Similarly, casting spells that are anathema to the tenets or goals of your faith could interfere with your connection to your deity. For example, casting a spell to enhance your ability to lie would be anathema to Sarenrae, as a goddess of honesty, and casting one to create undead would be anathema to Pharasma, the goddess of death.\n  For borderline cases, you and your GM determine whether other acts count as anathema. For example, Torag is a god of community, so actions that work to destroy a close-knit community are typically anathema to Torag. However, as god of dwarves, he might permit you to destroy a community of giants that is threatening to wipe out a dwarven settlement.\n  If you perform enough acts that are anathema to your deity or if your alignment changes to one not allowed by your deity, you lose the magical abilities that come from your connection to your deity. The class features that you lose are determined by the GM, but they likely include channel energy, domain powers, and divine spellcasting. These abilities can be regained only if you demonstrate your repentance by conducting an atone ritual (see page 275).",
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 70
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Channel Energy",
+      "Class": "Cleric",
+      "Info": {
+        "Description": "You gain a pool of positive or negative energy, depending on your deity, as shown on Table 3–9: Deities on pages 72–73. Some deities allow you to choose whether to channel negative or positive energy. Once you choose, you can’t change the type of energy you channel, short of an ethical shift or divine intervention.\n  This pool of energy allows you to cast either the heal spell (for positive energy) or the harm spell (for negative energy) a number of times per day equal to 3 plus your Charisma modifier without needing to prepare the spell in advance. All spells you cast in this way are heightened to the maximum spell level you can cast as a cleric. You can find heal on page 229 and harm on page 228.",
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 71
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Expert Spellcaster",
+      "Class": "Cleric",
+      "Info": {
+        "Description": "Your proficiency rank for spell rolls, spell DCs, and attack rolls for divine spells increases to expert.",
+        "Proficiencies": [
+          {
+            "Name": "Divine",
+            "Type": "Spells",
+            "Value": "Expert"
+          }
+        ],
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 71
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Master Spellcaster",
+      "Class": "Cleric",
+      "Info": {
+        "Description": "Your proficiency rank for spell rolls, spell DCs, and attack rolls for divine spells increases to master.",
+        "Proficiencies": [
+          {
+            "Name": "Divine",
+            "Type": "Spells",
+            "Value": "Master"
+          }
+        ],
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 71
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Legendary Spellcaster",
+      "Class": "Cleric",
+      "Info": {
+        "Description": "Your proficiency rank for spell rolls, spell DCs, and attack rolls for divine spells increases to Legendary.",
+        "Proficiencies": [
+          {
+            "Name": "Divine",
+            "Type": "Spells",
+            "Value": "Legendary"
+          }
+        ],
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 71
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Primal Spellcasting",
+      "Class": "Druid",
+      "Info": {
+        "Description": "You have the power to cast primal spells using the Cast a Spell activity, and you gain access to the Material Casting, Somatic Casting, and Verbal Casting actions (see Casting Spells on page 195). Because you’re a druid, you can usually hold a primal focus (such as holly and mistletoe) as part of your Material Casting and Somatic Casting actions, so you usually don’t need spell components or another hand free. At 1st level, you can prepare two 1st-level spells and four cantrips each\nmorning from the common spells on the primal spell list in this book (see page 201), or from other primal spells to which you gain access. Prepared spells remain available to you until you cast them or until you prepare your spells again. The number of spells you can prepare are called your spell slots.\n  As you increase in level as a druid, the number of spells you can prepare each day increases, as does the highest level of spell you can cast, as shown on the Druid Spells per Day table on page 81.\n  Some of your spells require you to attempt a spell roll to see how effective they are, or have your enemies roll against your spell DC. Since your key ability is Wisdom, your spell rolls and spell DCs use your Wisdom modifier. See page 291 for details on calculating your spell rolls and spell DCs.\n\nHeightening Spells\nWhen you get spell slots of 2nd level and higher, you can prepare lower-level spells in those slots to strengthen them. This increases the spell’s level to match the heightened spell slot. Many spells have specific improvements when they are heightened to certain levels (see page 192).\n\nCantrips\nA cantrip is a special type of spell that doesn’t use spell slots. You can cast a cantrip at will, any number of times per day. A cantrip is always automatically heightened to the highest level of spell you can cast as a druid. For example, as a 1st-level druid, the highest level of spell you can cast is 1st, so your cantrips are 1st-level spells. As a 5th-level druid, the highest level of spell you can cast is 3rd, so your cantrips are 3rd-level spells.",
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 80
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Anathema",
+      "Class": "Druid",
+      "Info": {
+        "Description": "As stewards of the natural order, druids find affronts to nature anathema. If you perform enough acts that are anathema to nature, you lose your magical abilities that come from the druid class, including your primal spellcasting and the benefits of your order. These abilities can be regained only if you demonstrate your repentance by conducting an atone ritual (see page 275).\n The following acts are anathema to all druids:\n• Using metal armor or shields.\n• Despoiling natural places.\n• Teaching the Druidic language to nondruids.\n Each druidic order also has additional anathema acts.",
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 80
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Druidic Order",
+      "Class": "Druid",
+      "Info": {
+        "Description": "Upon becoming a druid, you align yourself with a druidic order, which grants you a class feat, an order power (see below), and an additional signature skill tied to your order. Though you can still gain class feats tied to other orders as you advance, you receive additional benefits when using abilities tied to your chosen order.\n  You gain a pool of Spell Points. Your maximum number of Spell Points is equal to your key ability modifier. You regain all your Spell Points when you prepare your spells (see Daily Preparations on page 192).\n  You also gain a special spell tied to your order, which is called an order power. You cast this order power by spending 1 Spell Point, not by using spell slots. Your order power is automatically heightened to the highest level of spell you can cast. Some druid feats grant you more order powers and increase your pool of Spell Points.",
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 80
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Druidic Language",
+      "Class": "Druid",
+      "Info": {
+        "Description": "You know Druidic, a secret language known only to druids, in addition to any languages you know through your ancestry. Druidic has its own alphabet. If you use sign languages instead of spoken languages, you know the sign language version of Druidic. Teaching the Druidic language to nondruids is anathema (see page 80).",
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 81
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Wild Empathy",
+      "Class": "Druid",
+      "Info": {
+        "Description": "You have a connection to the creatures of the natural world that allows you to communicate with them on a rudimentary level. You can use Diplomacy to Make an Impression on animals and to make very simple Requests of them.",
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 81
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Expert Spellcaster",
+      "Class": "Druid",
+      "Info": {
+        "Description": "Your proficiency rank for spell rolls, spell DCs, and attack rolls for primal spells increases to expert.",
+        "Proficiencies": [
+          {
+            "Name": "Primal",
+            "Type": "Spells",
+            "Value": "Expert"
+          }
+        ],
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 81
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Master Spellcaster",
+      "Class": "Druid",
+      "Info": {
+        "Description": "Your proficiency rank for spell rolls, spell DCs, and attack rolls for primal spells increases to Master.",
+        "Proficiencies": [
+          {
+            "Name": "Primal",
+            "Type": "Spells",
+            "Value": "Master"
+          }
+        ],
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 81
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Legendary Spellcaster",
+      "Class": "Druid",
+      "Info": {
+        "Description": "Your proficiency rank for spell rolls, spell DCs, and attack rolls for primal spells increases to Legendary.",
+        "Proficiencies": [
+          {
+            "Name": "Primal",
+            "Type": "Spells",
+            "Value": "Legendary"
+          }
+        ],
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 81
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Attack of Opportunity",
+      "Class": "Fighter",
+      "Info": {
+        "Description": "You gain the Attack of Opportunity reaction.",
+        "References": [],
+        "Actions": [
+          "Attack of Opportunity"
+        ],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 87
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Weapon Mastery",
+      "Class": "Fighter",
+      "Info": {
+        "Description": "Choose one weapon group. Your proficiency rank increases to master with the simple and martial weapons in that group and to expert with the exotic weapons in that group. You gain access to the critical specialization effects of all simple and martial weapons in that group (see page 183).",
+        "Proficiencies": [
+          {
+            "Name": "Simple Weapons",
+            "Subname": "Weapon group",
+            "Type": "Weapons",
+            "Value": "Master"
+          },
+          {
+            "Name": "Martial Weapons",
+            "Subname": "Weapon group",
+            "Type": "Weapons",
+            "Value": "Master"
+          },
+          {
+            "Name": "Exotic Weapons",
+            "Subname": "Weapon group",
+            "Type": "Weapons",
+            "Value": "Expert"
+          }
+        ],
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 88
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Bravery",
+      "Class": "Fighter",
+      "Info": {
+        "Description": "When you succeed at a Will save against a fear effect, treat it as a critical success instead. If you critically succeed at a save against a fear effect, you gain a +2 circumstance bonus to saves against fear effects for 1 minute.",
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 88
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Battlefield Surveyor",
+      "Class": "Fighter",
+      "Info": {
+        "Description": "You become a master in Perception. In addition, you add a +1 circumstance bonus to Perception checks for initiative, making you faster to react during combat.",
+        "Proficiencies": [
+          {
+            "Name": "Perception",
+            "Type": "Sense",
+            "Value": "Master"
+          }
+        ],
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 88
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Combat Flexibility",
+      "Class": "Fighter",
+      "Info": {
+        "Description": "When you make your daily preparations, you gain one fighter feat of 8th level or lower that you don’t have. You can use that feat until your next daily preparations. You must meet all its other prerequisites.",
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 88
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Heavy Armor Expertise",
+      "Class": "Fighter",
+      "Info": {
+        "Description": "Your proficiency rank for heavy armor and all shields increases to expert.",
+        "Proficiencies": [
+          {
+            "Name": "Heavy Armor",
+            "Type": "Armor",
+            "Value": "Expert"
+          },
+          {
+            "Name": "Shields",
+            "Type": "Shields",
+            "Value": "Expert"
+          }
+        ],
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 88
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Weapon Specialization",
+      "Class": "Fighter",
+      "Info": {
+        "Description": "Your proficiency rank for all simple and martial weapons increases to master, and you gain access to the critical specialization effects of all weapon groups (see page 183). Your proficiency rank for all exotic weapons increases to expert.\n  You can choose one weapon group and increase your proficiency rank to legendary for all simple and martial weapons in that weapon group, and to master for all exotic weapons in that weapon group. You gain the critical specialization effects of all weapons in that weapon group.",
+        "Proficiencies": [
+          {
+            "Name": "Simple Weapons",
+            "Type": "Weapons",
+            "Value": "Master"
+          },
+          {
+            "Name": "Martial Weapons",
+            "Type": "Weapons",
+            "Value": "Master"
+          },
+          {
+            "Name": "Exotic Weapons",
+            "Type": "Weapons",
+            "Value": "Expert"
+          },
+          {
+            "Name": "Simple Weapons",
+            "Subname": "Weapon group",
+            "Type": "Weapons",
+            "Value": "Legendary"
+          },
+          {
+            "Name": "Martial Weapons",
+            "Subname": "Weapon group",
+            "Type": "Weapons",
+            "Value": "Legendary"
+          },
+          {
+            "Name": "Exotic Weapons",
+            "Subname": "Weapon group",
+            "Type": "Weapons",
+            "Value": "Master"
+          }
+        ],
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 88
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Armor Mastery",
+      "Class": "Fighter",
+      "Info": {
+        "Description": "Your proficiency rank for heavy armor and shields increases to master. Reduce your Speed penalty for wearing heavy armor from 10 feet to 5 feet. Your proficiency rank for medium armor increases to expert.",
+        "Proficiencies": [
+          {
+            "Name": "Heavy Armor",
+            "Type": "Armor",
+            "Value": "Master"
+          },
+          {
+            "Name": "Shields",
+            "Type": "Shields",
+            "Value": "Master"
+          }
+        ],
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 88
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Weapon Legend",
+      "Class": "Fighter",
+      "Info": {
+        "Description": "Your proficiency rank for all simple and martial weapons and unarmed attacks increases to legendary, and your proficiency rank for all exotic weapons increases to master. You gain access to the critical specialization effects of all weapon groups.",
+        "Proficiencies": [
+          {
+            "Name": "Simple Weapons",
+            "Type": "Weapons",
+            "Value": "Legendary"
+          },
+          {
+            "Name": "Martial Weapons",
+            "Type": "Weapons",
+            "Value": "Legendary"
+          },
+          {
+            "Name": "Exotic Weapons",
+            "Type": "Weapons",
+            "Value": "Master"
+          }
+        ],
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 88
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Flurry of Blows",
+      "Class": "Monk",
+      "Info": {
+        "Description": "You can attack rapidly with your fists. You gain the Flurry of Blows action.",
+        "References": [],
+        "Actions": [
+          "Flurry of Blows"
+        ],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 97
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Graceful Expertise",
+      "Class": "Monk",
+      "Info": {
+        "Description": "Your unarmored defense proficiency rank is expert.",
+        "Proficiencies": [
+          {
+            "Name": "Unarmored",
+            "Type": "Armor",
+            "Value": "Expert"
+          }
+        ],
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 97
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Powerful Fist",
+      "Class": "Monk",
+      "Info": {
+        "Description": "When striking with your fist, you deal 1d6 damage instead of 1d4. You use your normal proficiency when making a lethal attack with a nonlethal unarmed attack.",
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 97
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Incredible Movement",
+      "Class": "Monk",
+      "Info": {
+        "Description": "You gain a +10-foot conditional bonus to your Speed whenever you’re not wearing armor. The bonus increases by 5 feet for every 3 monk levels you have beyond 3rd.",
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 98
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Magic Strikes",
+      "Class": "Monk",
+      "Info": {
+        "Description": "Your proficiency rank for unarmed attacks increases to expert. Your unarmed attacks become magical, allowing them to bypass resistances accordingly. You still need an item such as handwraps of mighty fists to gain a bonus to attack rolls or increase your attacks’ weapon damage dice.",
+        "Proficiencies": [
+          {
+            "Name": "Unarmed Attacks",
+            "Type": "Weapons",
+            "Value": "Expert"
+          }
+        ],
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 98
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Metal Strikes",
+      "Class": "Monk",
+      "Info": {
+        "Description": "Your unarmed attacks are treated as cold iron and silver.",
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 98
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Path to Perfection",
+      "Class": "Monk",
+      "Info": {
+        "Description": "Choose your Fortitude, Reflex, or Will saving throw. Your proficiency rank in the chosen saving throw increases to master.",
+        "Proficiencies": [
+          {
+            "Name": "Saving Throw",
+            "Type": "Save",
+            "Value": "Master"
+          }
+        ],
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 98
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Fierce Flurry",
+      "Class": "Monk",
+      "Info": {
+        "Description": "If you hit with both Strikes in a Flurry of Blows, increase the weapon damage dice of each attack by one step.",
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 98
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Second Path to Perfection",
+      "Class": "Monk",
+      "Info": {
+        "Description": "If you succeed at a saving throw in which your proficiency rank is master, you instead critically succeed.",
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 98
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Graceful Mastery",
+      "Class": "Monk",
+      "Info": {
+        "Description": "Your unarmored defense proficiency rank becomes master.",
+        "Proficiencies": [
+          {
+            "Name": "Unarmored",
+            "Type": "Armor",
+            "Value": "Master"
+          }
+        ],
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 98
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Unarmed Mastery",
+      "Class": "Monk",
+      "Info": {
+        "Description": "Your unarmed attack proficiency rank becomes master.",
+        "Proficiencies": [
+          {
+            "Name": "Unarmed Attacks",
+            "Type": "Weapons",
+            "Value": "Master"
+          }
+        ],
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 98
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Third Path to Perfection",
+      "Class": "Monk",
+      "Info": {
+        "Description": "Choose your Fortitude, Reflex, or Will saving throw. If your proficiency rank for the chosen type of save is master, it increases to legendary; otherwise, it increases to master.",
+        "Proficiencies": [
+          {
+            "Name": "Save",
+            "Type": "Save",
+            "Value": "+1"
+          }
+        ],
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 98
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Adamantine Strikes",
+      "Class": "Monk",
+      "Info": {
+        "Description": "Your unarmed attacks are treated as adamantine.",
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 98
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Graceful Legend",
+      "Class": "Monk",
+      "Info": {
+        "Description": "Your unarmored defense proficiency becomes legendary.",
+        "Proficiencies": [
+          {
+            "Name": "Unarmored",
+            "Type": "Armor",
+            "Value": "Legendary"
+          }
+        ],
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 98
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Perfected Form",
+      "Class": "Monk",
+      "Info": {
+        "Description": "When you make an unarmed Strike, you can treat any dice whose roll was lower than 10 as if you had rolled a 10. If you do, your Strike gains the fortune trait.",
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 98
+          }
+        ]
+      }
     }
   ],
   "Feats": [
@@ -3355,7 +4326,41 @@
       "Source": [
         {
           "Source": "Pathfinder Playtest Rulebook",
-          "Page": 53
+          "Page": 54
+        }
+      ]
+    },
+    {
+      "Type": "Action",
+      "Name": "Mighty Rage",
+      "Action": "R",
+      "Traits": [
+        "Fighter"
+      ],
+      "Cost": [],
+      "Trigger": "A creature within your reach uses a manipulate action or a move action, makes a ranged attack, or leaves a square during a move action it’s using.",
+      "Description": "Make a melee Strike against the triggering creature at a –2 penalty. If the attack hits and the trigger was a manipulate action, you disrupt that action. This Strike doesn’t count toward your multiple attack penalty, and your multiple attack penalty doesn’t apply to it.",
+      "Source": [
+        {
+          "Source": "Pathfinder Playtest Rulebook",
+          "Page": 87
+        }
+      ]
+    },
+    {
+      "Type": "Action",
+      "Name": "Flurry of Blows",
+      "Action": 1,
+      "Traits": [
+        "Fighter"
+      ],
+      "Cost": [],
+      "Frequency": "Once per round.",
+      "Description": "Make two unarmed Strikes. If both hit the same creature, combine their damage and enhancements for the purpose of resistances and weaknesses.",
+      "Source": [
+        {
+          "Source": "Pathfinder Playtest Rulebook",
+          "Page": 97
         }
       ]
     }
