@@ -4606,6 +4606,517 @@
           }
         ]
       }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Finesse Striker",
+      "Class": "Rogue",
+      "Info": {
+        "Description": "When you attack with an agile or finesse one-handed melee weapon, you can add your Dexterity modifier to damage instead of your Strength modifier.",
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 119
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Sneak Attack",
+      "Class": "Rogue",
+      "Info": {
+        "Description": "You deal additional damage to flat-footed creatures (see page 322). If you Strike a flat-footed creature with an agile or finesse melee weapon, an agile or finesse unarmed attack, or a ranged attack, you deal 1d6 extra precision damage. For a ranged attack with a thrown weapon, that weapon must also be agile or finesse.\n  As your rogue levels increase, so does the number of damage dice of your sneak attack. Increase the number of dice by one at 5th, 11th, and 17th levels.",
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 119
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Surprise Attack",
+      "Class": "Rogue",
+      "Info": {
+        "Description": "On the first round of combat, creatures that haven’t acted are flat-footed to you.",
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 119
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Deny Advantage",
+      "Class": "Rogue",
+      "Info": {
+        "Description": "You aren’t flat-footed to sensed, unseen, or flanking creatures of your level or lower; they can still provide allies a flank.",
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 120
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Evasion",
+      "Class": "Rogue",
+      "Info": {
+        "Description": "Your proficiency rank for Reflex saves and Perception increases to master. When you succeed at a Reflex save, treat the outcome as a critical success.",
+        "Proficiencies": [
+          {
+            "Name": "Reflex",
+            "Type": "Save",
+            "Value": "Master"
+          },
+          {
+            "Name": "Perception",
+            "Type": "Sense",
+            "Value": "Master"
+          }
+        ],
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 120
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Debilitating Strike",
+      "Class": "Rogue",
+      "Info": {
+        "Description": "You gain the Debilitating Strike free action.",
+        "References": [],
+        "Actions": [
+          "Debilitating Strike"
+        ],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 120
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Improved Evasion",
+      "Class": "Rogue",
+      "Info": {
+        "Description": "Your proficiency rank for Reflex saves and Perception increases to legendary. When you critically fail a Reflex save, treat the outcome as a failure. When you fail a Reflex save against a damaging effect, you take half damage.",
+        "Proficiencies": [
+          {
+            "Name": "Reflex",
+            "Type": "Save",
+            "Value": "Legendary"
+          },
+          {
+            "Name": "Perception",
+            "Type": "Sense",
+            "Value": "Legendary"
+          }
+        ],
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 120
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Weapon Tricks",
+      "Class": "Rogue",
+      "Info": {
+        "Description": "You become an expert in all simple weapons plus the hand crossbow, rapier, sap, shortbow, and shortsword.",
+        "Proficiencies": [
+          {
+            "Name": "Simple Weapons",
+            "Type": "Weapons",
+            "Value": "Expert"
+          },
+          {
+            "Name": "Hand Crossbow",
+            "Type": "Weapon",
+            "Value": "Expert"
+          },
+          {
+            "Name": "Rapier",
+            "Type": "Weapon",
+            "Value": "Expert"
+          },
+          {
+            "Name": "Sap",
+            "Type": "Weapon",
+            "Value": "Expert"
+          },
+          {
+            "Name": "Shortbow",
+            "Type": "Weapon",
+            "Value": "Expert"
+          },
+          {
+            "Name": "Shortsword",
+            "Type": "Weapon",
+            "Value": "Expert"
+          }
+        ],
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 120
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Double Debilitation",
+      "Class": "Rogue",
+      "Info": {
+        "Description": "When you use Debilitating Strike, you can apply two debilitations simultaneously; removing one removes both.",
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 120
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Slippery Mind",
+      "Class": "Rogue",
+      "Info": {
+        "Description": "You become a master at Will saves. When you succeed at a Will save, treat the outcome as a critical success instead.",
+        "Proficiencies": [
+          {
+            "Name": "Will",
+            "Type": "Save",
+            "Value": "Master"
+          }
+        ],
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 120
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Master Strike",
+      "Class": "Rogue",
+      "Info": {
+        "Description": "You gain the Master Strike free action.",
+        "References": [],
+        "Actions": [
+          "Master Strike"
+        ],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 120
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Bloodline",
+      "Class": "Sorcerer",
+      "Info": {
+        "Description": "You choose one bloodline to represent the magical ancestry that gives you your spellcasting talent. This choice determines the type of spells you cast, the spell list from which you choose your spells, additional spells you learn, and additional signature skills you gain. You also gain Spell Points and special powers based on your bloodline. See Bloodlines on pages 129–130, and Casting Spells on pages 195–196.",
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 127
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Sorcerer Spellcasting",
+      "Class": "Sorcerer",
+      "Info": {
+        "Description": "You have the power to cast spells using the Cast a Spell activity, and you gain access to the Material Casting, Somatic Casting, and Verbal Casting actions (see Casting Spells on pages 195–196). Because you’re a sorcerer, you can usually replace Material Casting actions with Somatic Casting actions, so you usually don’t need spell components.\n  Each day, you can cast up to two 1st-level spells, plus an extra 1st-level spell due to the power of your bloodline. The number of spells you can cast each day are called your spell slots. You must know spells to cast them, and you learn them via the spell repertoire class feature. As you increase in level as a sorcerer, your number of spells per day and the highest level of spells you can cast from spell slots increases, as shown on the Sorcerer Spells per Day table on page 129.\n  Some of your spells require you to attempt a spell roll to see how effective they are, or have your enemies roll against your spell DC. Since your key ability is Charisma, your spell rolls and spell DCs use your Charisma modifier. See page 291 for details on calculating your spell rolls and spell DCs.\n\nHeightening Spells\nWhen you get spell slots of 2nd level and higher, you can heighten lower-level spells to higher levels. You must learn them at the new level to do so, as described on page 192. The spontaneous heightening class feature lets you select two spells you can heighten freely.\n\nCantrips\nSome of your spells are cantrips. A cantrip is a special type of spell that doesn’t use spell slots. You can cast a cantrip at will, any number of times per day. A cantrip is always automatically heightened to the highest level of spell you can cast as a sorcerer. For example, as a 1stlevel sorcerer, the highest level of spell you can cast is 1st, so your cantrips are 1st-level spells. As a 5th-level sorcerer, the highest level of spell you can cast is 3rd, so your cantrips are 3rd-level spells.",
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 128
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Spell Repertoire",
+      "Class": "Sorcerer",
+      "Info": {
+        "Description": "At 1st level, you learn two 1st-level spells of your choice and four cantrips of your choice, as well as an additional spell and cantrip from your bloodline (see page 130). You choose these from the common spells on the spell list corresponding to your bloodline in this book, or from other spells on that spell list to which you gain access. You can cast any spell in your spell repertoire by using a spell slot of an appropriate spell level.\n  You add to this spell repertoire as you increase in level. Each time you get a spell slot from Table 3–20, you add a spell to your spell repertoire of the same level. So when you reach 2nd level, you select another 1st-level spell; at 3rd level, you select two 2nd-level spells, and at 4th level you select a 2nd-level spell. Each time you learn spells of a new spell level, your bloodline also grants you both a new spell and a new spell slot of that level. As with other spell slots, you can use this bonus slot to cast any spell, not just the one your bloodline gave you.\n  Though you gain them at the same rate, your spell slots and spell repertoire are separate. If a feat or other ability adds a spell to your spell repertoire, it wouldn’t give you another spell slot, and vice versa.\n\nSwapping Spells in Your Repertoire\nAs you gain new spells in your repertoire, you might want to replace some of the spells you previously learned. Each time you level up and learn new spells, you can swap out one of your old spells for a different spell of the same level. This spell can be a cantrip. You can also swap out spells by retraining during downtime (see page 318).",
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 128
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Spontaneous Heightening",
+      "Class": "Sorcerer",
+      "Info": {
+        "Description": "You learn to freely heighten some of your spells, even if you know only the base version of the spell. During your daily preparations (see page 192), you can pick up to two spells you know. You can cast those spells using any applicable higher-level spell slots you may have, heightening the spell to the level of spell slot used, even if you don’t ordinarily know the spell at the higher level.",
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 129
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Expert Spellcaster",
+      "Class": "Sorcerer",
+      "Info": {
+        "Description": "Your proficiency rank for spell rolls, spell DCs, and attack rolls for your bloodline’s type of spells increases to expert.",
+        "Proficiencies": [
+          {
+            "Name": "Bloodline",
+            "Type": "Spells",
+            "Value": "Expert"
+          }
+        ],
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 129
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Master Spellcaster",
+      "Class": "Sorcerer",
+      "Info": {
+        "Description": "Your proficiency rank for spell rolls, spell DCs, and attack rolls for your bloodline’s type of spells increases to master.",
+        "Proficiencies": [
+          {
+            "Name": "Bloodline",
+            "Type": "Spells",
+            "Value": "Master"
+          }
+        ],
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 129
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Legendary Spellcaster",
+      "Class": "Sorcerer",
+      "Info": {
+        "Description": "Your proficiency rank for spell rolls, spell DCs, and attack rolls for your bloodline’s type of spells increases to legendary.",
+        "Proficiencies": [
+          {
+            "Name": "Bloodline",
+            "Type": "Spells",
+            "Value": "Legendary"
+          }
+        ],
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 129
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Arcane Spellcasting",
+      "Class": "Wizard",
+      "Info": {
+        "Description": "You have the power to cast arcane spells using the Cast a Spell activity, and gain access to the Material Casting, Somatic Casting, and Verbal Casting actions (see Casting Spells on page 195). At 1st level you can prepare up to two 1st-level spells and four cantrips each morning from the spells in your spellbook (see page 137), plus one extra cantrip and spell of your chosen school of each level you can cast if you are a specialist wizard. Prepared spells remain available to you until you cast them or until you prepare your spells again. The number of spells you can prepare are called your spell slots.\n  As you increase in level as a wizard, your number of spell slots and the highest level of spells you can cast from spell slots increase, as shown on the Wizard Spells per Day table on page 137.\n  Some of your spells require you to attempt a spell roll to see how effective they are, or have your enemies roll against your spell DC. Since your key ability is Intelligence, your spell rolls and spell DCs use your Intelligence modifier. See page 291 for details on calculating your spell rolls and spell DCs.\n\nHeightening Spells\nWhen you get spell slots of 2nd level and higher, you can prepare lower-level spells in those slots to strengthen them (see page 192). This increases the spell’s level to match the heightened spell slot. Many spells have specific improvements when they are heightened to certain levels.\n\nCantrips\nA cantrip is a special type of spell that doesn’t use spell slots. You can cast a cantrip at will, any number of times per day. A cantrip is always automatically heightened to the highest level of spell you can cast as a wizard. For example, as a 1st-level wizard, the highest level of spell you can cast is 1st, so your cantrips are 1st-level spells. As a 5th-level wizard, the highest level of spell you can cast is 3rd, so your cantrips are 3rd-level spells.",
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 135
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Spellbook",
+      "Class": "Wizard",
+      "Info": {
+        "Description": "You start with a spellbook worth 10 sp or less (as detailed on page 187), which you receive for free. The spellbook contains your choice of 10 arcane cantrips and eight 1st-level\narcane spells. You choose these from the common spells on the arcane spell list from this book (see page 199) or from other arcane spells you gain access to. \n  Each time you gain a level, you automatically add two more arcane spells to your spellbook. These can be of any level of spell you can cast. You can also use the Arcana skill to add other spells that you find, as described on page 146.\n  If you’re creating a higher-level character, it’s usually easiest to assume you always picked new spells of the highest level possible. At an odd-numbered level, this means that in addition to your total of 10 cantrips, your spellbook holds two spells of your highest level and four spells of all lower levels. At an even-numbered level, it means you’d have 10 cantrips and four spells of every level.",
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 136
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Arcane School",
+      "Class": "Wizard",
+      "Info": {
+        "Description": "If you want to be a specialist wizard, choose one school of magic in which to specialize. You gain one additional spell slot for each spell level you can cast, but you may use these spell slots to prepare only spells from your arcane school. You can also prepare one additional cantrip each day, which must be from your specialized school. You gain Spell Points and a special power based on your school (see Arcane Schools on page 137) and add another spell from your chosen school to your spellbook.",
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 136
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Arcane Focus",
+      "Class": "Wizard",
+      "Info": {
+        "Description": "You can place some of your magical power into an item called an arcane focus. Each day when you prepare your spells, you can designate a single item you own as your arcane focus. This is typically an item associated with spellcasting, such as a wand, ring, or staff, but you are free to designate a weapon or other item. You gain the Drain Arcane Focus free action.",
+        "References": [],
+        "Actions": [
+          "Drain Arcane Focus"
+        ],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 136
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Expert Spellcaster",
+      "Class": "Wizard",
+      "Info": {
+        "Description": "Your proficiency rank for spell rolls, spell DCs, and attack rolls for arcane spells increases to expert.",
+        "Proficiencies": [
+          {
+            "Name": "Arcane",
+            "Type": "Spells",
+            "Value": "Expert"
+          }
+        ],
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 137
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Master Spellcaster",
+      "Class": "Wizard",
+      "Info": {
+        "Description": "Your proficiency rank for spell rolls, spell DCs, and attack rolls for arcane spells increases to master.",
+        "Proficiencies": [
+          {
+            "Name": "Arcane",
+            "Type": "Spells",
+            "Value": "Master"
+          }
+        ],
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 137
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Class Feature",
+      "Name": "Legendary Spellcaster",
+      "Class": "Wizard",
+      "Info": {
+        "Description": "Your proficiency rank for spell rolls, spell DCs, and attack rolls for arcane spells increases to legendary.",
+        "Proficiencies": [
+          {
+            "Name": "Arcane",
+            "Type": "Spells",
+            "Value": "Legendary"
+          }
+        ],
+        "References": [],
+        "Actions": [],
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 137
+          }
+        ]
+      }
     }
   ],
   "Class Selectables": [],
@@ -4771,7 +5282,9 @@
       "Level": 2,
       "Info": {
         "Description": "Your strike not only wounds creatures, but also shatters their confidence. Make a melee %0. It gains the following %1.",
-        "Enhancement": "The target is %2 and becomes %3 until the end of your turn.",
+        "Subsections": {
+          "Enhancement": "The target is %2 and becomes %3 until the end of your turn."
+        },
         "Reference": [
           {
             "Text": "Strike",
@@ -4929,6 +5442,72 @@
         {
           "Source": "Pathfinder Playtest Rulebook",
           "Page": 113
+        }
+      ]
+    },
+    {
+      "Type": "Action",
+      "Name": "Debilitating Strike",
+      "Action": "F",
+      "Traits": [
+        "Rogue"
+      ],
+      "Cost": [],
+      "Trigger": "Your Strike hits a flat-footed creature.",
+      "Description": "You apply one of the following debilitations, which lasts until the end of your next turn.",
+      "Subsections": {
+        "Debilitation": [
+          "The target becomes entangled.",
+          "The target becomes enfeebled 1."
+        ]
+      },
+      "Source": [
+        {
+          "Source": "Pathfinder Playtest Rulebook",
+          "Page": 120
+        }
+      ]
+    },
+    {
+      "Type": "Action",
+      "Name": "Master Strike",
+      "Action": "F",
+      "Traits": [
+        "Rogue"
+      ],
+      "Cost": [],
+      "Trigger": "Your Strike hits a flat-footed creature.",
+      "Description": "You apply the following enhancement.",
+      "Subsections": {
+        "Enhancement": "The target must attempt a Fortitude save at your class DC, with the following effects. It is bolstered.",
+        "Success": "The target is enfeebled 2 until the end of your next turn.",
+        "Critical Success": "No effect.",
+        "Failure": "The target is paralyzed for 4 rounds.",
+        "Critical Failure": "The target is paralyzed for 4 rounds, knocked unconscious for 2 hours, or killed (your choice)."
+      },
+      "Source": [
+        {
+          "Source": "Pathfinder Playtest Rulebook",
+          "Page": 120
+        }
+      ]
+    },
+    {
+      "Type": "Action",
+      "Name": "Drain Arcane Focus",
+      "Action": "F",
+      "Traits": [
+        "Arcane",
+        "Wizard"
+      ],
+      "Cost": [],
+      "Frequency": "once per day",
+      "Trigger": "Your turn begins.",
+      "Description": "You expend the magical power stored in your arcane focus. This gives you the ability to cast one spell you prepared today and previously cast, without spending a spell slot. You must still complete the required spellcasting actions and meet the spell’s other requirements.",
+      "Source": [
+        {
+          "Source": "Pathfinder Playtest Rulebook",
+          "Page": 136
         }
       ]
     }
