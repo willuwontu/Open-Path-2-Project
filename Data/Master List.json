@@ -5265,6 +5265,268 @@
           ]
         }
       ]
+    },
+    {
+      "Type": "Muse",
+      "Name": "Lore",
+      "Info": [
+        {
+          "Description": "Your muse drives you to uncover the hidden secrets of the multiverse. You gain the Bardic Lore feat and add true strike to your spell repertoire.",
+          "Feat": "Bardic Lore",
+          "Spell": "True Strike",
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 64
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Muse",
+      "Name": "Maestro",
+      "Info": [
+        {
+          "Description": "Your muse inspires you to ever-greater heights of performance. You gain the Lingering Composition feat and add soothe to your spell repertoire.",
+          "Feat": "Lingering Composition",
+          "Spell": "Soothe",
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 64
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Muse",
+      "Name": "Polymath",
+      "Info": [
+        {
+          "Description": "Your muse flits about to almost every skill and pursuit. You gain the Versatile Performance feat and add summon monster to your spell repertoire.",
+          "Feat": "Versatile Performance",
+          "Spell": "Summon Monster",
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 64
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Order",
+      "Name": "Animal",
+      "Info": [
+        {
+          "Description": "You have a strong connection to the beasts of the world, and you are allied with a beast companion. You are trained in Athletics, and it becomes a signature skill for you. You also gain the Animal Companion druid feat. Finally, as your order power, you can cast heal animal at a cost of 1 Spell Point. ",
+          "Anathema": "Committing wanton cruelty to animals or killing animals unnecessarily is anathema to your order. (This doesn’t prevent you from defending yourself against animals or killing them cleanly for food.)",
+          "Skill": "Athletics",
+          "Feat": "Animal Companion",
+          "Power": "Heal Animal",
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Order",
+      "Name": "Leaf",
+      "Info": [
+        {
+          "Description": "You revere plants and the bounty of nature, acting as a gardener and warden for the wilderness, teaching sustainable techniques, and helping areas regrow after disasters or negligent humanoid expansion. You are trained in Diplomacy, and it becomes a signature skill for you. You also gain the Leshy Familiar druid feat. Finally, as your order power, you can cast goodberry at a cost of 1 Spell Point.",
+          "Anathema": "Committing wanton cruelty to plants or killing plants unnecessarily is anathema to your order. (This doesn’t prevent you from defending yourself against plants or harvesting them as necessary for survival.)",
+          "Skill": "Diplomacy",
+          "Feat": "Leshy Familiar",
+          "Power": "Goodberry",
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Order",
+      "Name": "Storm",
+      "Info": [
+        {
+          "Description": "You carry nature’s fury within you, channeling it to terrifying effect and riding the winds and storms. You are trained in Acrobatics, and it becomes a signature skill for you. You also gain the Storm Born druid feat. Finally, as your order power, you can cast tempest surge at a cost\nof 1 Spell Point.",
+          "Anathema": "Creating unnatural weather patterns that could be damaging to the local environment (such as by using a 9th-level control weather ritual) is anathema to your order.",
+          "Skill": "Acrobatics",
+          "Feat": "Storm Born",
+          "Power": "Tempest Surge",
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Order",
+      "Name": "Wild",
+      "Info": [
+        {
+          "Description": "The savage, uncontrollable call of the natural world infuses you, granting you the ability to change your shape to take on the ferocious form of a wild creature. You are trained in Intimidation, and it becomes a signature skill for you. You also gain the Wild Shape druid feat. Finally, as your order power, you can cast wild claws at a cost of 1 Spell Point.",
+          "Anathema": "Becoming fully domesticated by the temptations of civilization is anathema to your order. (This doesn’t prevent you from buying and using processed goods or staying in a city for an adventure, but you can never come to rely on these conveniences or truly call such a place your permanent home.)",
+          "Skill": "Intimidation",
+          "Feat": "Wild Shape",
+          "Power": "Wild Claws",
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 81
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Righteous Ally",
+      "Name": "Blade Ally",
+      "Info": [
+        {
+          "Description": "A spirit of valor inhabits your weapon, granting it additional power. Select one weapon each morning when you make your daily preparations. In your hands, the weapon gains your choice of the disrupting, ghost touch, returning, or shifting property (see page 370), without it counting against the weapon’s maximum number of properties. In addition, you gain access to the weapon’s critical specialization effect.",
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 106
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Righteous Ally",
+      "Name": "Shield Ally",
+      "Info": [
+        {
+          "Description": "A spirit of dedication inhabits your shield, granting it additional benefits. In your hands, the shield increases its Hardness by 2 and gains the ability to take 2 additional Dents before becoming broken. This stacks with any extra Dents the shield can normally take.",
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 107
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Righteous Ally",
+      "Name": "Steed Ally",
+      "Info": [
+        {
+          "Description": "You gain the service of a trained mount, which is treated as a young animal companion (see page 284). Normally you can select only an animal companion with the mount special ability, such as a horse. At the GM’s discretion, you can select a different type of animal companion appropriate to your ancestry and culture, but it doesn’t gain the mount special ability.",
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 107
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Bloodline",
+      "Name": "Aberrant",
+      "Info": [
+        {
+          "Description": "Something speaks to you from beyond the stars or below the earth. Ancient and unknowable, this alien influence presses against your mind, but grants you power. Whether that power will come with consequences, who can say?",
+          "Spell List": "Occult",
+          "Skills": [
+            "Acrobatics",
+            "Intimidation",
+            "Occultism",
+            "Stealth"
+          ],
+          "Spells": {
+            "Cantrip": [
+              "Daze"
+            ],
+            "1st": [
+              "Phantom Pain"
+            ],
+            "2nd": [
+              "Enlarge"
+            ],
+            "3rd": [
+              "Mind Reading"
+            ],
+            "4th": [
+              "Confusion"
+            ],
+            "5th": [
+              "Black Tentacles"
+            ],
+            "6th": [
+              "Feeblemind"
+            ],
+            "7th": [
+              "Warp Mind"
+            ],
+            "8th": [
+              "Mind Blank"
+            ],
+            "9th": [
+              "Shapechange"
+            ]
+          },
+          "Powers": {
+            "Initial": [
+              {
+                "Power": "Tentacular Limbs",
+                "Cost": 1
+              }
+            ],
+            "Advanced": [
+              {
+                "Power": "Aberrant Whispers",
+                "Cost": 2
+              }
+            ],
+            "Greater": [
+              {
+                "Power": "Unusual Anatomy",
+                "Cost": 2
+              }
+            ]
+          },
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 130
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Deities": [
+    {
+      "Type": "Deity",
+      "Name": "Abadar",
+      "Info": {
+        "Edicts": "bring civilization to the frontiers, earn wealth through hard work and trade, follow the rule of law",
+        "Anathema": "engage in banditry or piracy, steal, undermine a law-abiding court",
+        "Source": [
+          {
+            "Source": "Pathfinder Playtest Rulebook",
+            "Page": 288
+          }
+        ]
+      }
     }
   ],
   "Feats": [
