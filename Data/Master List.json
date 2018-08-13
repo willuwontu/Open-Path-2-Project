@@ -6062,7 +6062,9 @@
       "Info": [
         {
           "Description": "You have shaped your hatred of ancestral dwarven foes into a powerful weapon. Choose two of the following creature traits: derro, duergar, giant, or orc. You gain a +1 circumstance bonus to damage rolls against creatures with one of the chosen traits. If a creature with a chosen trait critically succeeds at an attack against you, this bonus increases to +4 against that creature for 1 minute.",
-          "Special": "Your GM can add appropriate creature traits to this list if your character is from a community that commonly fights other types of enemies.",
+          "Subsections": {
+            "Special": "Your GM can add appropriate creature traits to this list if your character is from a community that commonly fights other types of enemies."
+          },
           "Reference": [],
           "Source": [
             {
@@ -6075,20 +6077,1407 @@
     },
     {
       "Type": "Feat",
-      "Name": "Ancestral Hatred",
+      "Name": "Ancient's Blood",
+      "Action": "R",
+      "Traits": [
+        "Dwarf",
+        "Heritage"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Trigger": "You attempt a saving throw against a magical effect.",
+          "Description": "Your ancestors’ innate resistance to magic has manifested in you. You gain a +2 circumstance bonus to the triggering saving throw.",
+          "Subsections": {
+            "Special": "Your resistance hampers your connection to magic items. Reduce your total Resonance Points by 2 (minimum 0). For more information about Resonance Points, see page 376."
+          },
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Boulder Roll",
+      "Action": 2,
+      "Traits": [
+        "Dwarf"
+      ],
+      "Level": 5,
+      "Info": [
+        {
+          "Prerequisites": [
+            {
+              "Req": "Feat",
+              "Name": "Mountain Roots"
+            }
+          ],
+          "Description": "Your dwarven build allows you to push foes around. Take a Step into the square of a foe that is your size or smaller, and the foe must move into the empty space directly behind it. The foe must move even if doing so places it in harm’s way. The foe can attempt to block your Step by rolling a Fortitude saving throw against your Athletics DC. If the foe attempts this saving throw, regardless of the saving throw’s result, the creature takes bludgeoning damage equal to your level plus your Strength modifier.\n  If the foe can’t move into an empty space (if it is surrounded by solid objects or other creatures, for example), your Boulder Roll has no effect.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Giant Bane",
       "Traits": [
         "Dwarf"
       ],
       "Level": 1,
       "Info": [
         {
-          "Description": "You have shaped your hatred of ancestral dwarven foes into a powerful weapon. Choose two of the following creature traits: derro, duergar, giant, or orc. You gain a +1 circumstance bonus to damage rolls against creatures with one of the chosen traits. If a creature with a chosen trait critically succeeds at an attack against you, this bonus increases to +4 against that creature for 1 minute.",
-          "Special": "Your GM can add appropriate creature traits to this list if your character is from a community that commonly fights other types of enemies.",
+          "Description": "Your squat stature and your hatred for giantkind give you an edge when fighting them. You gain a +1 circumstance bonus to your Armor Class against giants; Fortitude and Reflex DCs against giants’ attempts to Disarm, Grapple, Shove, or Trip you; Survival checks to track giants; Perception checks to notice giants; and Stealth checks to avoid being noticed by giants.",
           "Reference": [],
           "Source": [
             {
               "Source": "Pathfinder Playtest Rulebook",
               "Page": 25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Hardy",
+      "Traits": [
+        "Dwarf",
+        "Heritage"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "Your blood runs hearty and strong, and you can shake off toxins that would lay others low. You gain poison resistance equal to half your level (minimum 1), and each of your successful saving throws against an ongoing poison reduces its stage by 2, or 1 for a virulent poison. Each critical success against an ongoing poison reduces its stage by 3, or 2 for a virulent poison.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Mountain Roots",
+      "Traits": [
+        "Dwarf"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "You can plant your feet on the ground to become nearly immovable. You gain a +2 circumstance bonus to your Fortitude or Reflex DC whenever anyone attempts to Shove or Trip you. This bonus also applies to saves against spells or effects that attempt to knock you prone. In addition, if any ability or effect would force you to move 10 feet or more in any direction, you are moved only half the distance.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Rock Runner",
+      "Traits": [
+        "Dwarf"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "Your innate connection to stone makes you adept at moving across uneven surfaces. When you take the Step action, you can ignore difficult terrain caused by uneven ground made of stone and earth. In addition, when you use the Acrobatics skill to Balance (see page 144) on narrow surfaces or uneven ground made of stone or earth, you aren’t flat-footed, and you treat a success on the Acrobatics check as if it were a critical success.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Stonecunning",
+      "Traits": [
+        "Dwarf"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "You have a knack for noticing inconsistencies and craftsmanship techniques in the stonework around you. You gain a +2 circumstance bonus to Perception checks to notice unusual stonework. This bonus applies to checks to discover mechanical traps made of stone or hidden inside of stone.\n  If you aren’t using the Seek action (see page 308) or searching, the GM rolls a secret check without the bonus and with a –2 circumstance penalty for you to notice unusual stonework anyway (in such cases, this feat takes on the secret trait).",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Weapon Cunning (Dwarf)",
+      "Traits": [
+        "Dwarf"
+      ],
+      "Level": 5,
+      "Info": [
+        {
+          "Prerequisites": [
+            {
+              "Req": "Feat",
+              "Name": "Weapon Familiarity (Dwarf)"
+            }
+          ],
+          "Description": "Whenever you critically hit using a weapon of the axe, hammer, or pick group, you apply the weapon’s critical specialization effect.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Weapon Familiarity (Dwarf)",
+      "Traits": [
+        "Dwarf"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "Your kin have instilled in you an affinity for hardhitting weapons, and you prefer them to more elegant arms. You are trained with the battleaxe, pick, and warhammer.\n  In addition, you gain access to all uncommon dwarf weapons. For the purpose of proficiencies, you treat martial dwarf weapons as simple weapons and exotic dwarf weapons as martial weapons. More about weapons can be found on page 178.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Ageless Patience",
+      "Traits": [
+        "Elf"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "You move at a pace born from longevity that might infuriate your shorter-lived comrades but enhances your thoroughness. You can spend twice as much downtime as usual on a downtime activity to receive a +2 circumstance bonus to all checks related to that downtime activity. For more about downtime, see page 318.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 27
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Ancestral Longevity",
+      "Traits": [
+        "Elf"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "You have accumulated a vast array of lived knowledge over your long life. During your daily preparations (see page 317), you can reflect upon your life experiences to become trained in one skill of your choice. This proficiency lasts until you prepare again. More about skills and proficiency can be found on page 142.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 27
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Demon Skirmisher",
+      "Traits": [
+        "Elf"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "You have served in the fight to reclaim your homeland from demons, and thus you have learned to mitigate those fiends’ strengths and amplify their weaknesses. Your attacks treat demons’ resistances as if they were 1 lower and demons’ weaknesses as if they were 1 higher. If you use the Stride action on your turn, you instead treat demons’ resistances as 2 lower and their weaknesses as 2 higher until the end of your turn.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 27
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Forlorn",
+      "Traits": [
+        "Elf"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "Watching your friends age and die fills you with moroseness that girds you against harmful emotions. You gain a +1 circumstance bonus to saves against emotion effects. If you succeed at a saving throw against an emotion effect, treat it as a critical success instead.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 27
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Keen Hearing",
+      "Traits": [
+        "Elf",
+        "Heritage"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "Your ears are finely tuned to even the slightest whispers of sound. As long as you can hear normally, you can use the Seek action to sense unseen creatures in a 60-foot cone instead of a 30-foot cone. You also gain a +2 circumstance bonus to sense unseen creatures within 30 feet that you can hear with a Seek action.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 27
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Nimble",
+      "Traits": [
+        "Elf"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "Your reflexes and lithe muscles are tightly honed. Your Speed increases by 5 feet. Additionally, when you use the Stride action, you can ignore difficult terrain in one square during that move.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 27
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Otherworldly Magic",
+      "Traits": [
+        "Elf"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "Choose one cantrip from the arcane spell list (see page 199). You can cast this cantrip as an innate arcane spell at will. The cantrip is heightened to a spell level equal to half your level rounded up. You can learn more about spells on page 192.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 27
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Unwavering Mien",
+      "Traits": [
+        "Elf"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "Your mystic control and meditation allow you to resist external influences upon your consciousness. When you would be confused, frightened, or stupefied for at least 2 rounds, reduce the duration by 1 round.\n  You still require natural sleep, but you are immune to effects that would cause you to fall asleep. This protects only against the asleep condition, not against other forms of falling unconscious.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 27
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Weapon Elegance (Elf)",
+      "Traits": [
+        "Elf"
+      ],
+      "Level": 5,
+      "Info": [
+        {
+          "Prerequisites": [
+            {
+              "Req": "Feat",
+              "Name": "Weapon Familiarity (Elf)"
+            }
+          ],
+          "Description": "You are attuned to the weapons of your elf ancestors and are particularly deadly when using them. Whenever you critically hit using a weapon of the bow or sword group, you apply the weapon’s critical specialization effect.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 27
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Weapon Familiarity (Elf)",
+      "Traits": [
+        "Elf"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "You favor bows and elegant weapons. You are trained with longbows, composite longbows, longswords, rapiers, shortbows, and composite shortbows.\n  In addition, you gain access to all uncommon elf weapons. For the purpose of proficiencies, you treat martial elf weapons as simple weapons and exotic elf weapons as martial weapons. More about weapons can be found on page 178.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 27
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Animal Accomplice",
+      "Traits": [
+        "Gnome"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "A rapport develops between you and an animal, which becomes magically bonded to you. You gain a familiar (see page 287). The type of animal is up to you, but most gnomes choose animals with a burrow Speed.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 29
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Animal Speaker",
+      "Traits": [
+        "Gnome"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "You recognize the chittering of ground creatures as a language of its own. You can ask questions of, receive answers from, and use the Diplomacy skill with animals that have a burrow Speed, such as badgers, ground squirrels, moles, and prairie dogs. The GM determines which animals count for this ability.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 29
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Animal Whisperer",
+      "Traits": [
+        "Gnome"
+      ],
+      "Level": 5,
+      "Info": [
+        {
+          "Prerequisites": [
+            {
+              "Req": "Feat",
+              "Name": "Animal Speaker"
+            }
+          ],
+          "Description": "You hear the sounds of animals as conversations instead of unintelligent noise. You can speak to all animals, not just animals with a burrow Speed. You gain a +1 circumstance bonus on Diplomacy checks to Make an Impression on animals.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 29
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Discerning Smell",
+      "Traits": [
+        "Gnome",
+        "Heritage"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "You can smell and taste all sorts of exotic flavors that are too nuanced for a human palate. You gain a +2 circumstance bonus to sense an unseen creature that is close enough for you to smell (typically within 30 feet, though halve the distance if you are upwind and double the distance if you are downwind). For more information about senses, see page 301.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 29
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Fey Fellowship",
+      "Traits": [
+        "Gnome"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "Your fey origins afford you a warmer reception from creatures of the First World as well as tools to foil their tricks. Against fey creatures, you gain a +1 circumstance bonus to Diplomacy checks, Perception checks, and saving throws.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 29
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "First World Magic",
+      "Traits": [
+        "Gnome"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "Choose one cantrip from the primal spell list (see page 201). You can cast this spell as an innate primal spell at will. The cantrip is heightened to a spell level equal to half your level rounded up. For more information about spells, see page 192.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 29
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Illusion Sense",
+      "Traits": [
+        "Gnome"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "Your ancestors spent their days cloaked and cradled in illusions, and sensing this magic is second nature to you. You gain a +1 circumstance bonus to Perception checks and Will saves against illusions. When you come within 10 feet of an illusion that can be disbelieved, you can attempt a single Perception check to disbelieve it, even without spending an action to interact with it in some way. For more about disbelieving illusions, see page 194.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 29
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Obsessive",
+      "Traits": [
+        "Gnome"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "You might have a flighty nature, but when a topic captures your attention, you dive into it headfirst. Pick a category of the Lore skill. You are trained in that skill. At 2nd level you become an expert, at 7th level you become a master, and at 15th level you become legendary.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 29
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Weapon Familiarity (Gnome)",
+      "Traits": [
+        "Gnome"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "You favor unusual weapons tied to your people, such as blades with curved and unusual shapes. You are trained with glaives and kukris.\n  In addition, you gain access to all uncommon gnome weapons. For the purpose of proficiencies, you treat martial gnome weapons as simple weapons and exotic gnome weapons as martial weapons. For more information about weapons, see page 178.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 29
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Weapon Innovator (Gnome)",
+      "Traits": [
+        "Gnome"
+      ],
+      "Level": 5,
+      "Info": [
+        {
+          "Prerequisites": [
+            {
+              "Req": "Feat",
+              "Name": "Weapon Familiarity (Gnome)"
+            }
+          ],
+          "Description": "You produce outstanding results when wielding unusual weapons. Whenever you critically hit using a glaive, kukri, or gnome weapon, you apply the weapon’s critical specialization effect.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 29
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Burn It",
+      "Traits": [
+        "Goblin"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "Fire fascinates you. Your spells and alchemical nitems that deal fire damage gain a conditional bonus to damage equal to half the spell’s level or the item’s level (minimum 1). You also gain a +1 conditional bonus to any persistent fire damage you deal, whether it’s from a spell or not.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "City Scavenger ",
+      "Traits": [
+        "Goblin"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "You know that the greatest treasures often look like refuse, and you scoff at those who throw away perfectly good scraps. You can attempt a Survival check to search for food and supplies and to subsist in a city as well as in the wild. When you do, you gain a +1 circumstance bonus to your Survival check.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Eat Anything ",
+      "Traits": [
+        "Goblin"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "You are comfortable subsisting on food that most folks would consider spoiled. You gain a +2 circumstance bonus to saving throws against toxins and against gaining the sick condition, but only if it resulted from something you ate. You can eat and drink things when you have the sick condition.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Flame Heart",
+      "Traits": [
+        "Goblin",
+        "Heritage"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "As a result of either a childhood accident with flames or an ongoing fascination with fire, your skin has thickened, protecting you against burning. You gain resistance to fire equal to half your level (minimum 1), and your flat check to remove persistent fire damage (see page 323) is DC 15 instead of DC 20 without requiring an action to reduce the DC.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Junk Tinkerer",
+      "Traits": [
+        "Goblin"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "You can make useful tools out of even the most twisted or rusted scraps. You can craft ordinary items, including weapons but not armor, out of junk. This costs one-quarter the usual amount for a standard-quality item but always results in an item of poor quality. You take only a –1 item penalty when using poor-quality items you crafted. For more information about crafting items, see page 147.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Razor Teeth",
+      "Traits": [
+        "Goblin"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "Your teeth are formidable weapons. You gain a jaws unarmed attack that deals 1d6 piercing damage. For more information about unarmed attacks, see page 178.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Rough Rider",
+      "Traits": [
+        "Goblin"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "Any creature that will bear your weight can become your loyal steed, and you know how to coax even the strangest beasts into service. You gain the Ride feat, even if you don’t meet the prerequisites. You gain a +1 circumstance bonus to Nature checks to Handle a goblin dog or wolf mount. For more about the Nature skill, see page 152.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Very Sneaky",
+      "Traits": [
+        "Goblin"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "Taller folk rarely pay attention to the shadows at their feet, and you take full advantage of this. You can move 5 feet farther when you take the Sneak action, up to your Speed (see page 158).\n  In addition, if you critically succeed at a Stealth check against a creature and then attack that creature, your target remains flat-footed during your attack. The GM doesn’t reveal that your Stealth check resulted in a critical success until you declare your attack.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Weapon Familiarity (Goblin)",
+      "Traits": [
+        "Goblin"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "Others might look upon them with disdain, but you know that the weapons of your people are as effective as they are sharp. You are trained with the dogslicer and horsechopper.\n  In addition, you gain access to all uncommon goblin weapons. For the purpose of proficiencies, you treat martial goblin weapons as simple weapons and exotic goblin weapons as martial weapons. For more information about weapons, see page 178.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Weapon Frenzy (Goblin)",
+      "Traits": [
+        "Goblin"
+      ],
+      "Level": 5,
+      "Info": [
+        {
+          "Prerequisites": [
+            {
+              "Req": "Feat",
+              "Name": "Weapon Familiarity (Goblin)"
+            }
+          ],
+          "Description": "Others might look upon them with disdain, but you know that the weapons of your people are as effective as they are sharp. You are trained with the dogslicer and horsechopper.\n  In addition, you gain access to all uncommon goblin weapons. For the purpose of proficiencies, you treat martial goblin weapons as simple weapons and exotic goblin weapons as martial weapons. For more information about weapons, see page 178.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Attentive",
+      "Traits": [
+        "Halfling"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "Your communal lifestyle causes you to notice when those around you act out of character. You gain a +2 circumstance bonus to Perception checks when using the Seek action to notice enchanted or possessed characters.\n  If you aren’t Seeking, the GM rolls a secret check anyway, with a –2 circumstance penalty, for you to notice the enchantment or possession.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 33
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Distracting Shadows",
+      "Traits": [
+        "Halfling"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "You’ve learned to use larger folk to avoid drawing attention to yourself. You can use creatures that are at least one size larger than you (usually Medium or larger) as cover for the Hide and Sneak actions (see page 158).",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 33
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Keen Eyes",
+      "Traits": [
+        "Halfling",
+        "Heritage"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "Your eyes are sharp, and your other senses are similarly attuned to your surroundings. When you attack an opponent that is concealed from you or sensed by you, reduce the flat check DC you need to hit that creature to 3 for concealed or 9 for sensed. You gain a +2 circumstance bonus when using the Seek action to sense unseen creatures within 30 feet.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 33
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Lucky Halfling",
+      "Action": "F",
+      "Traits": [
+        "Halfling",
+        "Fortune"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Frequency": "Once per day",
+          "Trigger": "You fail a skill check or saving throw.",
+          "Description": "Your happy-go-lucky nature makes it seem like misfortune avoids you, and to an extent, that’s true. You can reroll the triggering check or saving throw and take the better of the two results.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 33
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Plucky",
+      "Traits": [
+        "Halfling"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "You are easily able to ward off attempts to play on your fears and emotions. If you succeed at a saving throw against an emotion or fear effect, treat your result as a critical success instead of a success.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 33
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Sure-Footed",
+      "Traits": [
+        "Halfling"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "If you succeed at an Acrobatics check to Balance or an Athletics check to Climb, you get a critical success instead of a success. You’re not flat-footed when you attempt to Balance or Climb. For more about these skills and their uses, see pages 144 and 146, respectively.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 33
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Titan Slinger",
+      "Traits": [
+        "Halfling"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "You have learned how to use your sling to fell big creatures. You gain a +1 circumstance bonus to damage rolls with slings against Large or larger creatures. This bonus increases to +2 on critical hits (and then doubles on a critical hit as normal).",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 33
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Unfettered",
+      "Action": "R",
+      "Traits": [
+        "Halfling"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Trigger": "You roll an Acrobatics check to Escape, an Athletics check to Break a Grapple, or a saving throw against an effect that would entangle or grab you, or you use your Fortitude DC to resist a Grapple.",
+          "Description": "You were forced into service as a laborer, either pressed into indenture or shackled by the evils of slavery, but you’ve since escaped and have trained to ensure you’ll never labor against your will again. You gain a +2 circumstance bonus to the triggering check or your Fortitude DC.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 33
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Weapon Familiarity (Halfling)",
+      "Traits": [
+        "Halfling"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "You favor traditional halfling weapons. You are trained with slings, sling staves, and shortswords.\n  In addition, you gain access to all uncommon halfling weapons. For the purpose of proficiencies, you treat martial halfling weapons as simple weapons and exotic halfling weapons as martial weapons. For more information about weapons, see page 178.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 33
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Weapon Trickster (Halfling)",
+      "Traits": [
+        "Halfling"
+      ],
+      "Level": 5,
+      "Info": [
+        {
+          "Prerequisites": [
+            {
+              "Req": "Feat",
+              "Name": "Weapon Familiarity (Halfling)"
+            }
+          ],
+          "Description": "You are particularly adept at fighting with your people’s favored weapons. Whenever you critically succeed at an attack roll using a weapon of the sling group, a shortsword, or a halfling weapon, you apply the weapon’s critical specialization effect.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 33
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Adapted Spell",
+      "Traits": [
+        "Human"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Prerequisites": [
+            {
+              "Req": "Text",
+              "Name": "You are a spellcaster."
+            }
+          ],
+          "Description": "Study of multiple magical traditions reveals how to alter a spell to suit your spellcasting style. Choose one cantrip from a spell list other than your own. If you have a spell repertoire or spellbook, replace one of the cantrips you know or have in your spellbook with the chosen spell. If you prepare spells without a spellbook (if you’re a cleric or druid, for example), one of your cantrips must always be the chosen spell, and you prepare the rest normally.\n  If you swap or retrain this cantrip later, you can choose its replacement from the same alternate list or a different one. For more about magic and spells, see page 192.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 36
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Clever Improviser",
+      "Traits": [
+        "Human"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "You’ve learned how to handle situations when you’re out of your depth. You gain a +1 circumstance bonus to skill checks in which you’re untrained.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 36
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Cooperative Nature",
+      "Traits": [
+        "Human"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "A short human life span lends perspective and has taught you from a young age to set aside differences and work together to achieve greatness. You gain a +2 circumstance bonus to your check when you use the Aid reaction or Assist action (see page 307).",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 36
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "General Training",
+      "Traits": [
+        "Human"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "Your adaptability manifests in your mastery of a range of useful abilities. You gain a 1st-level general feat.",
+          "Subsections": {
+            "Special": "You can select this feat multiple times, choosing a different feat each time."
+          },
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 36
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Half-Elf",
+      "Traits": [
+        "Human",
+        "Heritage"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "Either one of your parents was an elf, or one or both were half-elves. You have pointed ears and other telltale signs of elf heritage. You gain the elf trait. Select two of the following benefits: elven speed (increase your Speed by 5 feet), elven tongue (add Elven to your list of languages), gifted speaker (you are trained in Diplomacy), or low-light vision (you can see in dim light as well as you can in bright light). In addition, you can select elf, half-elf, and human feats whenever you gain an ancestry feat.",
+          "Subsections": {
+            "Special": "You can select this feat twice. The second time, it loses the heritage trait and you gain the other two benefits."
+          },
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 36
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Half-Orc",
+      "Traits": [
+        "Human",
+        "Heritage"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "Either one of your parents was an orc, or one or both were half-orcs. You have a green tinge to your skin and other indicators of orc heritage. You gain the orc trait. Select two of the following benefits: intimidating visage (you are trained in Intimidation), low-light vision (you can see in dim light as well as you can in bright light), orc tongue (add Orcish to your list of languages), or orc toughness (gain 2 Hit Points). You can select orc, half-orc, and human feats whenever you gain an ancestry feat.",
+          "Subsections": {
+            "Special": "You can select this feat twice. The second time, it loses the heritage trait and you gain the other two benefits."
+          },
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 36
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Haughty Obstinancy",
+      "Traits": [
+        "Human"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "Your powerful ego makes it harder for others to order you around. If you succeed at a saving throw against a mental effect that attempts to directly control your actions, you critically succeed instead.\n  If a creature fails to Coerce you using the Intimidation skill (see page 150), it treats the result as a critical failure instead (so it can’t try to Coerce you again for 1 week).",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 37
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Natural Ambition",
+      "Traits": [
+        "Human"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "You were raised to be ambitious and always reach for the stars, causing you to progress quickly in your chosen field. You gain a 1st-level class feat for your class.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 37
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Skilled",
+      "Traits": [
+        "Human"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "Your ingenuity allows you to train in a wide variety of skills. You become trained in two skills of your choice. For more about skills, see page 142.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 37
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Unconventional Weaponry",
+      "Traits": [
+        "Human"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "You’ve familiarized yourself with a weapon from another ancestry or culture. You gain access to an uncommon weapon with an ancestry trait of your choice. This doesn’t change your proficiency for that weapon. For more about weapons, see page 178.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 37
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Inspire Imitation",
+      "Traits": [
+        "Half-Elf"
+      ],
+      "Level": 5,
+      "Info": [
+        {
+          "Description": "You inspire your allies to great feats through your own actions. Whenever you critically succeed at a skill check, you automatically qualify to take the Aid reaction when attempting to help an ally at the same skill check, even without spending an action to prepare to do so.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 37
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Supernatural Charm",
+      "Traits": [
+        "Half-Elf"
+      ],
+      "Level": 5,
+      "Info": [
+        {
+          "Description": "The elven magic in your blood manifests as magic that makes you more appealing or alluring. You can cast 1st-level charm as an innate arcane spell once per day. For more about magic and spells, see page 192.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 37
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Orc Ferocity",
+      "Traits": [
+        "Orc"
+      ],
+      "Level": 1,
+      "Action": "R",
+      "Info": [
+        {
+          "Frequency": "Once per day",
+          "Trigger": "You’re reduced to 0 Hit Points.",
+          "Description": "Fierceness in battle runs through your blood, and you refuse to fall from your injuries. When this feat is triggered, you avoid being knocked out and remain at 1 Hit Point.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 37
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Orc Sight",
+      "Traits": [
+        "Half-Orc"
+      ],
+      "Level": 5,
+      "Info": [
+        {
+          "Description": "Your orc blood is strong enough to grant you the keen vision of your orc forebears. You gain low-light vision, allowing you to see in dim light just as well as you can in bright light. If you have low-light vision (from the Half-Orc feat), you instead gain darkvision, allowing you to see in darkness and dim light just as well as you can in bright light. Your vision in darkness is in black and white.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 37
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Orc Weapon Carnage",
+      "Traits": [
+        "Orc"
+      ],
+      "Level": 5,
+      "Info": [
+        {
+          "Prerequisites": [
+            {
+              "Req": "Feat",
+              "Name": "Orc Weapon Familiarity"
+            }
+          ],
+          "Description": "You are brutally efficient with the weapons of your orc ancestors. Whenever you critically hit using a two-handed weapon of the axe or sword group, or with an orc weapon, you apply the weapon’s critical specialization effect.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 37
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Orc Weapon Familiarity",
+      "Traits": [
+        "Orc"
+      ],
+      "Level": 1,
+      "Info": [
+        {
+          "Description": "You favor the brutal weapons of your orc ancestors. You are trained with the greataxe and falchion. \n  In addition, you gain access to all uncommon orc weapons. For the purpose of proficiencies, you treat martial orc weapons as simple weapons and exotic orc weapons as martial weapons. For more about weapons, see page 178.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 37
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Feat",
+      "Name": "Orc Weapon Familiarity",
+      "Traits": [
+        "Orc",
+        "Concentrate"
+      ],
+      "Level": 1,
+      "Action": 1,
+      "Info": [
+        {
+          "Description": "Orcs have a distrust of magic, and you have picked up these misgivings. You seek inner strength from your superstitions, granting you a +1 circumstance bonus to saves against spells and other magical effects until the start of your next turn.",
+          "Reference": [],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 37
             }
           ]
         }
@@ -6446,5 +7835,34 @@
   "Spells": [],
   "Spell lists": [],
   "Hazards": [],
-  "Rules": []
+  "Rules": [
+    {
+      "Type": "Rule",
+      "Name": "Some Rule",
+      "Info": [
+        {
+          "Header": "Some Heading",
+          "Description": "Opening Text about it ",
+          "Subsections": [
+            {
+              "Header": "Some Subheading",
+              "Description": "Some Description",
+              "Subsections": [
+                {
+                  "Header": "Some Subheading",
+                  "Description": "Some Description"
+                }
+              ]
+            }
+          ],
+          "Source": [
+            {
+              "Source": "Pathfinder Playtest Rulebook",
+              "Page": 29
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
